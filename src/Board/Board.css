@@ -1,0 +1,39 @@
+.cell{
+    height: 50px;
+    width: 50px;
+    outline: 1px solid white;
+    display: inline-block;
+}
+
+.row{
+    height: 50px;
+}
+
+.board{
+    outline: 5px solid white;
+}
+
+.snake{
+    background-color: green;
+}
+
+.food{
+    background-color: red;
+}
+.alert{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
